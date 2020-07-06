@@ -1,0 +1,220 @@
+*{box-sizing: border-box;}
+.main{
+    background-color: lightgray;
+}
+.left{
+    width: 25%;
+    height: 700px;
+    float: left;
+    overflow: auto;
+    margin-top: 70px;
+    margin-left: 3%;
+    background-color: white;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.image{
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+.upper{
+    width: 100%;
+    height: 400px;
+    box-shadow: 0 4px 2px -2px rgba(83, 75, 75, 0.178);
+}
+
+.name{
+    font-weight: normal;
+    font-size: 35px;
+}
+.color{
+    color: skyblue;
+}
+.font{
+    font-size: 18px;
+    color: gray;
+}
+.icons{
+    width: 100%;
+    height: 100px;
+    padding-top: 30px;
+    text-align: center;
+    border-bottom: 1px solid rgba(83, 75, 75, 0.178);
+}
+.mine{
+    font-size: 20px;
+    padding: 25px;
+    border-bottom: 1px solid rgba(83, 75, 75, 0.178);
+    justify-content: left;
+}
+.down{
+    width: 100%;
+    height: 200px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+.btn{
+    width: 70%;
+    height: 70px;
+    background-color: rgb(6, 182, 251);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+}
+
+.right{
+    width: 70%;
+    height: 1000px;
+    float: right;
+    margin-top: 50px;
+}
+ul{ 
+    width: 100%;
+    height: 80px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: white;
+}
+li{
+    float: left;
+}
+li a{
+    height: 80px;
+    color:black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+a:hover{
+    color: white;
+    background-color:rgb(6, 182, 251);
+}
+.active{
+    color: white;
+    background-color: rgb(6, 182, 251);
+}
+.grid-container {
+    display: grid;
+    grid-template-rows: 450px 900px;
+    grid-gap: 20px;
+}
+
+.grid-container > div {
+    background-color: white;
+    font-size: 20px;
+    padding: 50px;
+    padding-top: 10px;
+    color: black;
+}
+
+.hello{
+    width: 40%;
+    height: 440px;
+    float: left;
+    font-size: 30px;
+    line-height: 10px;
+    padding-top: 40px;
+}
+.hello-para{
+    font-size: 50px;
+}
+.name-para{
+    font-size: 30px;
+}
+.design-para{
+    font-size: 20px;
+    color: gray;
+}
+.imgcircle{
+    width: 60%;
+    height: 440px;
+    float: right;
+}
+
+.circle{
+    width: 300px;
+    height: 300px;
+    margin-top: 60px;
+    border-radius: 50%;
+    margin-left: 0;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.index{
+    position: absolute;
+    left: 70px;
+    bottom: 220px;
+    z-index: inherit;
+    
+}
+   
+.aboutme{
+    width: 100%;
+    height: 220px;
+}
+.about{
+    font-size: 40px;
+}
+.box-table{
+    width: 100%;
+    height: 600px;
+}
+.box{
+    width: 45%;
+    height: 600px;
+    float: left;
+}
+.grid-box{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 40px 10px; 
+    padding-top: 50px;
+    margin-right: 20px;
+}
+.grid-box > div{
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 20px;
+    width: 150px;
+    height: 180px;
+    padding-top: 40px;
+    padding-left: 35px;
+}
+
+.personal{
+    width: 55%;
+    height: 600px;
+    float: right;
+    padding-top: 30px;
+}
+table{
+    border: none;
+    border-bottom: 1px solid rgba(83, 75, 75, 0.178);
+    border-spacing: 30px;
+    font-size: 20px;
+    width: 100%;
+    color:  gray
+}
+
+
+
+
+  
+
+
+
+
