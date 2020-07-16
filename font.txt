@@ -3,8 +3,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <i class="fa fa-credit-card" style="font-size:48px;color:red"></i>
-
+<span class="fa-stack fa-3x">
+  <i class="fa fa-camera fa-stack-1x"></i>
+  <i class="fa fa-ban fa-stack-2x text-danger" style="color:red;"></i>
+</span>
 <span class="fa-stack fa-lg">
    <i class="fa fa-circle fa-stack-2x" style="color: rgba(128, 128, 128, 0.602);"></i>
    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
 </span>
+https://github.com/SuMyatMon99/html-css-exercises
